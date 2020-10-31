@@ -1,0 +1,54 @@
+.experience {
+  grid-column: 1/9;
+}
+
+.company {
+  font-size: 1rem;
+  color: var(--company);
+  font-weight: 900;
+}
+
+.range {
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.location {
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.content {
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+.content > span {
+  font-weight: bolder;
+  color: var(--important);
+}
+
+.list {
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.list > div {
+  margin-top: 0.5rem;
+}
+
+.list > div > span {
+  font-weight: 500;
+  color: var(--list);
+}
+
+.list > div > span > span {
+  font-weight: 700;
+  color: var(--important);
+}

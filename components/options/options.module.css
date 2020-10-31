@@ -1,0 +1,16 @@
+.themeButton {
+  background-color: var(--resume);
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  padding: 0.5rem;
+}
+
+.options {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}

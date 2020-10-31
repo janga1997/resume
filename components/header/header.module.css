@@ -1,0 +1,11 @@
+.header {
+  grid-column: 1/8;
+}
+
+.subtitle {
+  margin: 0.5rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: var(--company);
+}

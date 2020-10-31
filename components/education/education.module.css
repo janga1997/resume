@@ -1,0 +1,35 @@
+.education {
+  grid-column: 1/11;
+}
+
+.heading {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 0;
+}
+
+.table {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 5fr 2fr 1fr;
+  justify-content: space-between;
+  gap: 0.5rem;
+  /* /* align-content: start;
+  align-items: start; */
+  /* justify-items: start; */
+}
+
+.duration {
+  font-size: 0.75em;
+}
+
+.course {
+  font-size: 0.75em;
+  white-space: pre-wrap;
+  color: var(--list);
+}
+
+.grade {
+  font-size: 0.75em;
+}

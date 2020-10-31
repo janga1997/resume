@@ -1,0 +1,14 @@
+.skills {
+  grid-column: 9/11;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill > h2 {
+  font-size: 1rem;
+}

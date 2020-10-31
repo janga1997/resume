@@ -1,0 +1,76 @@
+@page {
+  size: A4;
+}
+
+body {
+  background-color: lightgray;
+}
+
+:root {
+  --resume: #fdf6e3;
+  --heading: #cb4b16;
+  --company: #657b83;
+  --text: #073642;
+  --list: #586e75;
+  --important: #2aa198;
+}
+
+[data-theme="dark"] {
+  --resume: #073642;
+  --heading: #2aa198;
+  --company: #eee8d5;
+  --text: #eee8d5;
+  --list: #93a1a1;
+  --important: #b58900;
+}
+
+[data-theme="plain"] {
+  --resume: white;
+  --heading: black;
+  --company: slategray;
+  --text: black;
+  --list: dimgray;
+  --important: darkslategray;
+}
+
+* {
+  font-family: Fira Code;
+  color: var(--text);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: var(--heading);
+}
+h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--heading);
+}
+
+#resume {
+  background-color: var(--resume);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #resume {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  #resume * {
+    visibility: visible;
+  }
+}

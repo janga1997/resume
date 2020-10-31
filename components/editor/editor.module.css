@@ -1,0 +1,7 @@
+.editor {
+  background-color: var(--resume);
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  width: 40rem;
+}
